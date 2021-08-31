@@ -1,0 +1,32 @@
+.transactionHistory {
+  background-color: #ffffff;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tableHeading {
+  background-color: #00bcd4;
+  color: #ffffff;
+  font-family: 'Arial';
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px 90px;
+}
+
+.tableCell {
+  font-family: 'Arial';
+  font-size: 15px;
+  font-weight: 300;
+  color: #88929c;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-transform: capitalize;
+  text-align: center;
+  border: none;
+}
+
+.transactionHistory tbody tr:nth-child(even) {
+  background: #e4e3e3 !important;
+}
